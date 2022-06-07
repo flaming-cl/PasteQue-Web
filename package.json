@@ -19,11 +19,8 @@
     "url": "https://github.com/flaming-cl/PasteQue-Web"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "start": "node server/index.js",
+    "build": "npm install && npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
