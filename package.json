@@ -2,7 +2,7 @@
   "name": "PasteQue-Web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://flaming-cl.github.io/PasteQue-Web",
+  "homepage": ".",
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
@@ -19,10 +19,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts docs",
+    "build": "react-scripts dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": "react-app"
