@@ -1,0 +1,60 @@
+.container,
+.container-sm,
+.container-xs {
+	width: 100%;
+	margin: 0 auto;
+	padding-left: $container--padding__mobile;
+	padding-right: $container--padding__mobile;
+
+	@include media( '>small' ) {
+		padding-left: $container--padding__desktop;
+		padding-right: $container--padding__desktop;
+	}
+}
+
+.mode-title {
+	color: black;
+	font-size: 21px;
+	font-weight: 600;
+	margin: 48px 0;
+}
+
+.container {
+	max-width: $container--width + ( $container--padding__desktop * 2 );
+}
+
+.shortcuts {
+	margin-bottom: 80px;
+}
+
+.shortcuts-hr {
+	margin-bottom: 66px;
+}
+
+.title {
+	color: black;
+}
+
+.container-sm {
+	max-width: $container--width-sm + ( $container--padding__desktop * 2 );
+}
+
+.container-xs {
+	max-width: $container--width-xs + ( $container--padding__desktop * 2 );
+}
+
+[class*=container] {
+
+	[class*=container] {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+    .container-sm {
+		max-width: $container--width-sm;
+    }
+
+	.container-xs {
+		max-width: $container--width-xs;
+	}
+}
