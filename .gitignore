@@ -34,7 +34,8 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-.PasteQue/
+# images
+src/assets
 
 # out files
 out/
