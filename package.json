@@ -19,8 +19,7 @@
     "url": "https://github.com/flaming-cl/PasteQue-Web"
   },
   "scripts": {
-    "start": "node server/index.js",
-    "build": "npm install && npm run build"
+    "start": "node server/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
